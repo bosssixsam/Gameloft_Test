@@ -1,0 +1,20 @@
+@import "assets/styles/style.scss";
+
+.customInput {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid $blue;
+  border-radius: 4px;
+  color: $blue;
+  input {
+    width: 100%;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background: none;
+    color: $blue;
+    &::placeholder {
+      color: $blue;
+    }
+  }
+}

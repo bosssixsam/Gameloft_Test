@@ -1,0 +1,27 @@
+@import "assets/styles/style.scss";
+
+.customDropdown {
+  .dropdownfield {
+    padding: 8px 10px;
+    border: 1px solid $blue;
+    border-radius: 4px;
+    // color: $blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    &__content {
+      color: $blue;
+      //   font-size: 12px;
+      line-height: 15px;
+      font-weight: 500;
+      width: 90%;
+    }
+    &__icon {
+      width: 10%;
+      @include midflex;
+      justify-content: flex-end;
+    }
+  }
+}

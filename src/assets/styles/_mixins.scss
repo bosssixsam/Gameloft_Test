@@ -34,7 +34,7 @@
   }
 }
 @mixin iphoneX_lc {
-  @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+  @media screen and (min-width: 375px) and (max-width: 896px) and (orientation: landscape) {
     @content;
   }
 }

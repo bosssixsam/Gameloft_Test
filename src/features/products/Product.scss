@@ -37,7 +37,7 @@
 
 .scbanner {
   width: 100vw;
-  height: 100%;
+  height: 100vh;
 
   // --- Main Banner -------------------
 
@@ -104,14 +104,22 @@
           &__item {
             margin-left: 6px;
           }
+
+          .special {
+            display: flex;
+          }
         }
       }
     }
   }
 
+  // @include tablet {
+  // }
+
   @include mobile {
+    height: auto;
     .mainBanner {
-      height: 74%;
+      height: 80vh;
     }
 
     .store {
@@ -136,6 +144,61 @@
             margin-left: 0;
             padding: 0 3px;
             width: 48%;
+            max-width: 180px;
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+
+          .special {
+            width: 100%;
+            display: flex;
+            padding-bottom: 6px;
+            .downloads__item {
+              width: 48%;
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include iphoneX_lc {
+    height: auto;
+    // min-height: 600px;
+
+    .mainBanner {
+      height: 378px;
+    }
+
+    .store {
+      height: auto;
+      min-height: 26%;
+      .container .wrapper {
+        flex-direction: column;
+        h4 {
+          padding-top: 25px;
+          padding-bottom: 16px;
+          font-size: 25px;
+          width: 100%;
+          text-align: center;
+        }
+        .downloads {
+          //   flex-wrap: wrap;
+          flex-direction: column-reverse;
+          width: 100%;
+          margin: 0 -3px;
+          padding-bottom: 22px;
+          &__item {
+            margin-left: 0;
+            padding: 0 3px;
+            width: 48%;
+            max-width: 180px;
             img {
               width: 100%;
               height: auto;
@@ -162,20 +225,22 @@
 
 .scform {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #ebf6ff;
+  padding-bottom: 20px;
   .container {
     height: 100%;
     .wrapper {
       width: 100%;
       height: 100%;
-      padding-right: 40px;
       @include midflex;
       justify-content: space-between;
+
       .form {
         width: 100%;
-        max-width: 252px;
-        min-height: 478px;
+        max-width: 275px;
+        min-height: 448px;
+        padding-right: 40px;
 
         .head {
           color: $blue;
@@ -186,6 +251,7 @@
             // font-weight: 400;
           }
         }
+
         .field-wrapper {
           .field {
             margin: -5px 0;
@@ -194,7 +260,62 @@
             }
           }
         }
+
+        .checkbox-wrapper {
+          padding-top: 24px;
+
+          .customCheckbox {
+            margin-top: 10px;
+            &:first-child {
+              margin-top: 0;
+            }
+          }
+        }
+
+        .button-wrapper {
+          width: 100%;
+          padding-top: 10px;
+          @include midflex;
+        }
+      }
+
+      @include mobile {
+        padding-right: 0;
+        .minions {
+          display: none;
+        }
+        .form {
+          max-width: 100%;
+          padding-right: 40px;
+          padding-left: 40px;
+          min-height: unset;
+        }
+      }
+      @include iphoneX_lc {
+        padding-right: 0;
+        .minions {
+          display: none;
+        }
+        .form {
+          max-width: 100%;
+          padding-right: 40px;
+          padding-left: 40px;
+          min-height: unset;
+        }
       }
     }
+  }
+
+  @include mobile {
+    height: auto;
+    padding-bottom: 78px;
+    padding-top: 78px;
+    // padding-bottom: 0;
+  }
+
+  @include iphoneX_lc {
+    height: auto;
+    padding-bottom: 78px;
+    padding-top: 78px;
   }
 }

@@ -1,0 +1,33 @@
+@import "assets/styles/style.scss";
+
+.customLang {
+  position: relative;
+  min-width: 145px;
+  .langField {
+    width: auto;
+    background: #ffffff;
+    padding: 14px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    .content {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 15px;
+        color: $blue;
+        margin-left: 6px;
+      }
+    }
+    .arrow {
+      width: 16px;
+      @include midflex;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

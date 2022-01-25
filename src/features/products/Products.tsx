@@ -1,8 +1,10 @@
 import React from "react";
-import Div100vh from "react-div-100vh";
+import { Swiper, SwiperSlide } from "swiper/react";
+// import Div100vh from "react-div-100vh";
 
 import { Dropdown, Input, Checkbox, Button } from "components/common";
 import Footer from "components/layouts/footer";
+import CustomSlider from "components/slider";
 import { Review } from "./components";
 
 import "./Product.scss";
@@ -19,7 +21,6 @@ type Props = {};
 const Products = (props: Props) => {
   return (
     <div className="product_page">
-      {/* <h2>hello product</h2> */}
       <section className="scbanner">
         <div className="mainBanner">
           <div className="container">
@@ -62,6 +63,19 @@ const Products = (props: Props) => {
         </div>
       </section>
 
+      <section className="scevent">
+        <div className="event__heading">
+          <div className="container">
+            <h2>Special Events &amp; Promotional</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat, sed diam voluptua. At vero eos.
+            </p>
+          </div>
+        </div>
+        <CustomSlider />
+      </section>
+
       <section className="scform">
         <div className="container">
           <div className="wrapper">
@@ -70,6 +84,7 @@ const Products = (props: Props) => {
                 <img src={Minions} alt="" />
               </div>
             </div>
+
             <div className="form">
               <div className="head">
                 <h3>Stay in the Know!</h3>

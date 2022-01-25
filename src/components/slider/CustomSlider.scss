@@ -150,7 +150,11 @@
     height: 340px;
   }
   @include mobile {
-    padding: 0 40px;
+    width: 80%;
+    // padding: 0 40px;
+  }
+  @include iphoneX_lc {
+    height: 340px;
   }
 }
 
@@ -161,10 +165,16 @@
     height: 100%;
     .swiper-slide {
       height: 100%;
+      @include midflex;
     }
   }
 
   @include tablet {
+    height: auto;
+    min-height: unset;
+  }
+
+  @include iphoneX_lc {
     height: auto;
     min-height: unset;
   }

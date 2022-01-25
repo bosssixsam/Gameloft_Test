@@ -341,6 +341,20 @@
     height: auto;
   }
   @include mobile {
+    padding-bottom: 72px;
+    h2 {
+      font-size: 25px;
+      line-height: 30px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  @include iphoneX_lc {
+    height: auto;
+    padding-bottom: 72px;
     h2 {
       font-size: 25px;
       line-height: 30px;

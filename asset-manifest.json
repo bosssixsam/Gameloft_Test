@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Gameloft_Test/static/css/main.f0a90772.css",
+    "main.js": "/Gameloft_Test/static/js/main.a16587c8.js",
+    "static/media/minions.png": "/Gameloft_Test/static/media/minions.1262248c42b3b52994ad.png",
+    "static/media/logo_white.svg": "/Gameloft_Test/static/media/logo_white.8bee8545d41b8934fd10338930d2b9aa.svg",
+    "static/media/bg_banner.jpg": "/Gameloft_Test/static/media/bg_banner.33c11ba9e08f963aa26b.jpg",
+    "static/media/nintendo.svg": "/Gameloft_Test/static/media/nintendo.6dfdcc7709305c02e95914e94823d047.svg",
+    "static/media/steam.svg": "/Gameloft_Test/static/media/steam.725af97f20ff980b5bcec743e3f24299.svg",
+    "static/media/microsoft.svg": "/Gameloft_Test/static/media/microsoft.2053fac0718cb0a8f988b549eb252bb0.svg",
+    "static/media/youtube_icon.svg": "/Gameloft_Test/static/media/youtube_icon.883062d68d69cd837b48b53e5073d35c.svg",
+    "static/media/linkedin_icon.svg": "/Gameloft_Test/static/media/linkedin_icon.0f835f7cf25791a756b85e17c7a0f97f.svg",
+    "static/media/share.svg": "/Gameloft_Test/static/media/share.6a05f0f84ff37686a4558b9a1eb08a76.svg",
+    "static/media/globe.svg": "/Gameloft_Test/static/media/globe.99d0d39201ce76d4786525a7dac6b7a8.svg",
+    "index.html": "/Gameloft_Test/index.html",
+    "static/media/twitter_icon.svg": "/Gameloft_Test/static/media/twitter_icon.d87bc32a5ae7811920ed4745ae5747b7.svg",
+    "static/media/star.svg": "/Gameloft_Test/static/media/star.ea34df37a43db7dedf31d8ef0ab4ee7b.svg",
+    "static/media/star_yellow.svg": "/Gameloft_Test/static/media/star_yellow.f7448b76c18f309f82116620dd8614f5.svg",
+    "static/media/fb_icon.svg": "/Gameloft_Test/static/media/fb_icon.afa6497782df61a0ef33c79e1fed87e0.svg",
+    "static/media/dropdown_arrow.svg": "/Gameloft_Test/static/media/dropdown_arrow.fd77d36eccd717210d29846be075cde4.svg",
+    "main.f0a90772.css.map": "/Gameloft_Test/static/css/main.f0a90772.css.map",
+    "main.a16587c8.js.map": "/Gameloft_Test/static/js/main.a16587c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0a90772.css",
+    "static/js/main.a16587c8.js"
+  ]
+}
